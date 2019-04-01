@@ -8,3 +8,13 @@ C:\Users\PW\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.Gene
 C:\Users\PW\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\PW\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\PW\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\github_project\CShap_GameBall\bin\Debug\WindowsFormsApp1.exe.config
+E:\github_project\CShap_GameBall\bin\Debug\WindowsFormsApp1.exe
+E:\github_project\CShap_GameBall\bin\Debug\WindowsFormsApp1.pdb
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.exe
+E:\github_project\CShap_GameBall\obj\Debug\WindowsFormsApp1.pdb

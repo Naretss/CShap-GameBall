@@ -37,9 +37,9 @@
             this.horz = new System.Windows.Forms.Timer(this.components);
             this.key_watch = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label_sum = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label_score = new System.Windows.Forms.Label();
-            this.label_sum = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ball)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.slider)).BeginInit();
             this.panel1.SuspendLayout();
@@ -71,9 +71,9 @@
             // slider
             // 
             this.slider.BackColor = System.Drawing.Color.Orange;
-            this.slider.Location = new System.Drawing.Point(270, 486);
+            this.slider.Location = new System.Drawing.Point(270, 483);
             this.slider.Name = "slider";
-            this.slider.Size = new System.Drawing.Size(127, 13);
+            this.slider.Size = new System.Drawing.Size(157, 16);
             this.slider.TabIndex = 2;
             this.slider.TabStop = false;
             // 
@@ -103,6 +103,16 @@
             this.panel1.TabIndex = 3;
             this.panel1.Visible = false;
             // 
+            // label_sum
+            // 
+            this.label_sum.AutoSize = true;
+            this.label_sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label_sum.Location = new System.Drawing.Point(314, 208);
+            this.label_sum.Name = "label_sum";
+            this.label_sum.Size = new System.Drawing.Size(99, 24);
+            this.label_sum.TabIndex = 1;
+            this.label_sum.Text = "SCORE : ";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -124,16 +134,6 @@
             this.label_score.Size = new System.Drawing.Size(63, 17);
             this.label_score.TabIndex = 4;
             this.label_score.Text = "score : 0";
-            // 
-            // label_sum
-            // 
-            this.label_sum.AutoSize = true;
-            this.label_sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label_sum.Location = new System.Drawing.Point(314, 208);
-            this.label_sum.Name = "label_sum";
-            this.label_sum.Size = new System.Drawing.Size(99, 24);
-            this.label_sum.TabIndex = 1;
-            this.label_sum.Text = "SCORE : ";
             // 
             // Form1
             // 

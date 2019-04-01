@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            label_tool.Visible = true;
         }
         int speed = 9;
         int vdir = +1;
@@ -46,6 +47,10 @@ namespace WindowsFormsApp1
                     score++;
                     speed+=2;
                     label_score.Text = "score : " + score;
+                    if (score > 4)
+                    {
+                        label_tool.Visible = false;
+                    }
 
                 }
 
@@ -134,6 +139,11 @@ namespace WindowsFormsApp1
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

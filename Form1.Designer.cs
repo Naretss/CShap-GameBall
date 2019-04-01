@@ -40,6 +40,7 @@
             this.label_sum = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label_score = new System.Windows.Forms.Label();
+            this.label_tool = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ball)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.slider)).BeginInit();
             this.panel1.SuspendLayout();
@@ -135,12 +136,24 @@
             this.label_score.TabIndex = 4;
             this.label_score.Text = "score : 0";
             // 
+            // label_tool
+            // 
+            this.label_tool.AutoSize = true;
+            this.label_tool.ForeColor = System.Drawing.SystemColors.Control;
+            this.label_tool.Location = new System.Drawing.Point(317, 26);
+            this.label_tool.Name = "label_tool";
+            this.label_tool.Size = new System.Drawing.Size(218, 17);
+            this.label_tool.TabIndex = 5;
+            this.label_tool.Text = "ปุ่ม Esc : หยุดเกม | Enter : เริ่มเกมต่อ";
+            this.label_tool.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(884, 500);
+            this.Controls.Add(this.label_tool);
             this.Controls.Add(this.label_score);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.slider);
@@ -175,6 +188,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label_score;
         private System.Windows.Forms.Label label_sum;
+        private System.Windows.Forms.Label label_tool;
     }
 }
 

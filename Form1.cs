@@ -23,14 +23,18 @@ namespace WindowsFormsApp1
         int score = 0;
         private void vert_Tick_1(object sender, EventArgs e)
         {
+            //Console.WriteLine(ball.Top); ยิ่งตำแหน่งลงยิ่งมีค่ามาก ยิ่งสูงหรือชิดขอบมากๆ เกินขอบ จะติดลบ
             if (ball.Top < 0)
             {
                 vdir = +1;
+                /*
+                Console.WriteLine("if ball.Top < 0)");
+                Console.WriteLine("if "+ball.Top+" < 0");
+                */
             }
             else if(ball.Top>(this.Height-ball.Height-slider.Height))
             {
-
-                if (ball.Left < slider.Left || ((ball.Left + ball.Width) > (slider.Left + slider.Width)))
+                if (ball.Left < slider.Left || ((ball.Left + ball.Width) > (slider.Left + slider.Width))) //END GAME
                 {
                     vert.Enabled = horz.Enabled = false;
                     panel1.Visible = true;
@@ -45,7 +49,7 @@ namespace WindowsFormsApp1
                 {
                     label_score.Visible = true;
                     score++;
-                    speed+=2;
+                    speed+=2; //เร่งความเร็วหากยังรับได้ 
                     label_score.Text = "score : " + score;
                     if (score > 4)
                     {
